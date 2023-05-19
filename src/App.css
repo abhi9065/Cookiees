@@ -54,7 +54,7 @@
 .main{
   display: flex;
   justify-content: space-evenly;
-  background-color: #b27a3e;
+  background-color: #ddbe9f;
   padding: 1rem;
   position: fixed;
   /* bottom: 0; */
@@ -109,7 +109,7 @@
 
 .image{
   height:45% ;
-  width: 60%;
+  width: 100%;
   margin-top: 12rem;
 }
 
@@ -117,13 +117,13 @@
   margin: 10rem;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  
   
 }
 
 .footer{
   display: flex;
-  background-color: #a26a2f ;
+  background-color:#ddbe9f; ;
   padding: 1rem;
   margin-top: 10rem;
  
