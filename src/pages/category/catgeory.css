@@ -1,0 +1,41 @@
+.category-page{
+    margin-top: 10rem;
+  }
+  
+  .category-cake-image{
+    margin: 8rem;
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+    margin-left: 15rem;
+      
+  }
+  
+  .categorypage-items{
+   display: grid;
+  
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-column-gap: 0.7rem ;
+  
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-row-gap: 2rem ;
+  }
+  
+  .category-listing{
+    box-shadow: 0 1px 5px 3px gray;
+    margin: 1.5rem;
+    padding: 1rem;
+    width: 60%;
+    height: 430px;
+    margin-left: 8rem;
+    line-height: 1.6rem;
+  
+    
+  }
+  
+  .categoryCart-image{   
+    height: 250px;
+    width: 100%;
+    margin-top: -1rem;
+    display: block;
+  }

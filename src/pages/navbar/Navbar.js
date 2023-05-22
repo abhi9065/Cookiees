@@ -10,8 +10,12 @@ export function Navbar(){
 
     return (
         <>
+
+        
+
         <nav className="main">
-         <Link className="heading" to={'/productCart'} > COOKIES </Link>
+       
+         <Link className="heading" to={'/'} > COOKIES </Link>
         <input className="input" placeholder="🔎search for products" />
 
 
@@ -28,6 +32,8 @@ export function Navbar(){
 
           <button className="Btn">Login</button>
         </ul>
+
+    
 
         
       </nav>

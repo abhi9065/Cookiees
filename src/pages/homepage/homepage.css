@@ -1,0 +1,45 @@
+
+.image{
+    height:45% ;
+    width: 100%;
+    margin-top: 12rem;
+  }
+  
+  
+  
+  
+  .footer{
+    display: flex;
+    background-color:#ddbe9f; ;
+    padding: 1rem;
+    margin-top: 10rem;
+   
+  
+  }
+  
+  .social-link{
+    list-style: none;
+    padding: 1rem;
+    font-size: 2rem;
+    
+  }
+  
+  .anchoor:hover{
+  font-size: 3rem;
+  outline-style: outset;
+  }
+
+.homepage-menucard{
+  color:purple;
+  border: 10px dashed rgb(181, 74, 74);
+  text-decoration: none;
+  font-size: 50px;
+  font-style: bold;
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+  
+
+.homepage-main-menucard{
+  margin: 5rem;
+  font-weight: 500;
+}

@@ -4,8 +4,9 @@ import "./index.css";
 import App from "./App";
 import { makeServer } from "./server";
  import {BrowserRouter as Router} from "react-router-dom"
+import { CartContext, CartProvider } from './pages/context/cartContext';
 
- import { CartProvider , CartContext } from "./context/CartContext";
+ 
 
 // Call make Server
 makeServer();
@@ -17,7 +18,7 @@ ReactDOM.render(
    <Router>
    <CartProvider>
       <App />
-   </CartProvider>
+    </CartProvider>
       </Router>
   </React.StrictMode>,
   document.getElementById("root")

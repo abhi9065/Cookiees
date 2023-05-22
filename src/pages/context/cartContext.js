@@ -5,6 +5,7 @@ export const CartContext  = createContext()
 export function CartProvider({children}){
 
 const [cart , setCart] = useState([])
+const [wishlist , setWishlist] = useState([])
 
 
 function handleClickUpdate(item){
@@ -12,9 +13,8 @@ function handleClickUpdate(item){
     
 }
 
-
 function handleClickUpdateToWishlist(item){
-    setCart(cart => [...cart , item])
+    setWishlist(wishlist => [...wishlist , item])
     
 }
 
@@ -22,9 +22,13 @@ const removeFromCart = (productId) => {
     setCart(prevItems => prevItems.filter(item => item.id !== productId))
 }
 
+const removeFromWishlist = (productId) => {
+    setWishlist(prevItems => prevItems.filter(item => item.id !== productId))
+}
+
     return (
         <>
-        <CartContext.Provider  value={{cart , handleClickUpdate ,handleClickUpdateToWishlist, removeFromCart}}>
+        <CartContext.Provider  value={{cart , handleClickUpdate , wishlist ,handleClickUpdateToWishlist, removeFromCart , removeFromWishlist}}>
         {children}
         </CartContext.Provider>
         </>

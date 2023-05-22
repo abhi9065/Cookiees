@@ -1,5 +1,6 @@
 import { useContext } from "react"
-import { CartContext } from "../context/CartContext"
+import { CartContext } from './../context/cartContext';
+
 
 export function Cart(){
 
@@ -22,7 +23,7 @@ export function Cart(){
 
                    <img className="cart-image cart" src={src} alt="not found" />
                    <h1 className="cart ">{title}</h1>
-                   <h3 className="cart">{price}</h3>
+                   <h3 className="cart">{price}/-Rs.</h3>
 
                   <button onClick={()=>{removeCart(id)}}>Remove Cart</button>
 
