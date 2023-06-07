@@ -10,11 +10,13 @@ import {Routes,Route} from "react-router-dom"
 
 import { Navbar } from './pages/navbar/Navbar';
 import { HomePage } from './pages/homepage/homePage';
-import { CategoryPage } from "./pages/category/category";
 import { ProductCart } from './pages/products/producart';
 import { Cart } from './pages/cart/cart';
 import { Wishlist } from "./pages/wishlist/wishlist";
 import { ProductDetail } from "./pages/component/productDetail";
+import { CategoryDetail } from './pages/category/categoryDetail';
+import { CategoryPage } from "./pages/category/category";
+
 
 
 
@@ -26,6 +28,7 @@ function App() {
 
     <Navbar/>
 
+
     <Routes>
     <Route path="/" element={<HomePage/>}></Route>
     <Route path='/category' element={<CategoryPage/>}></Route>
@@ -33,10 +36,14 @@ function App() {
     <Route path="/cart" element={<Cart/>}></Route>
     <Route path="/wishlist" element={<Wishlist/>}></Route>
     <Route path="/product/:productId" element={<ProductDetail />}></Route>
+    <Route path='/category' element={<CategoryPage/>}></Route>
+    <Route path='/categories/:categoriesId' element={<CategoryDetail/>}></Route>
     </Routes>
+
     
     </div>
   );
 }
 
 export default App;
+

@@ -6,13 +6,14 @@
   
   .product-heading{
     margin-bottom: 4rem;
-    color: #1c1002;
-    background-color: #b27a3e;
+    color: black;
+    background-color:  #2ebbb9;
     display: inline-block;
+    margin-top: 10rem;
   }
   
   
-  .product-cart{
+  .mains{
     display: grid;
   
     grid-template-columns: 1fr 1fr 1fr;
@@ -52,3 +53,39 @@
   color: #351d02;
   font-style: bold;
  }
+
+ .productcart-button{
+  background-color: #2ebbb9;
+  color: black;
+  padding: 0.4rem;
+ margin: 0.3rem;
+ }
+
+
+.sidebar{
+  grid-area: sidebar;
+  line-height: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.mains{
+  grid-area: main;
+
+
+}
+
+.product-page{
+  display: grid;
+  grid-template-areas: "sidebar main main";
+  margin-top: 2rem;
+  line-height:4rem;
+}
+
+/* .sidebar-category{
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+} */
+
+

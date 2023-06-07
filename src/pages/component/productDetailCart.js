@@ -18,13 +18,13 @@ export function ProductDetailCard({
         border: "1px solid #efefef"
       }}
     >
-      <div style={{ fontSize: "large" }}>
-        <img src={src} alt='not found'/>
+      <div className="productDetail" style={{ fontSize: "large" }}>
+        <img className="productDetail-image" src={src} alt='not found'/>
         <h4>title : {title} </h4>
-
+        Price: {price}/-Rs. 
       </div>
       <div>
-        Price: {price} 
+       
       </div>
     </li>
   );

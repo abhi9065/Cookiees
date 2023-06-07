@@ -2,44 +2,75 @@
 .image{
     height:45% ;
     width: 100%;
-    margin-top: 12rem;
+    margin-top: 8rem;
   }
+
   
-  
-  
-  
-  .footer{
-    display: flex;
-    background-color:#ddbe9f; ;
-    padding: 1rem;
-    margin-top: 10rem;
-   
-  
-  }
-  
-  .social-link{
-    list-style: none;
-    padding: 1rem;
-    font-size: 2rem;
-    
-  }
-  
-  .anchoor:hover{
-  font-size: 3rem;
-  outline-style: outset;
-  }
 
 .homepage-menucard{
-  color:purple;
-  border: 10px dashed rgb(181, 74, 74);
+  color:black;
+  border: 4px solid black ;
+  border-radius: 1.5rem;
+  padding: 0.1rem 3rem;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 30px;
   font-style: bold;
   font-family: 'Arial Narrow Bold', sans-serif;
-}
+  cursor: pointer;
   
+}
 
-.homepage-main-menucard{
-  margin: 5rem;
-  font-weight: 500;
+
+
+
+.homepage-cake-description{
+  margin: 7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 2rem;
+  font-style: italic;
+  line-height: 3rem;
+}
+
+.homepage-cake-descriptionText{
+  padding: 2rem 0rem;
+  margin-right: 10rem;
+  
+}
+
+.footer-heading{
+  display: inline-block;
+  color: black;
+
+  
+}
+
+.footer{
+  display: flex;
+  background-color:#2ebbb9; 
+  
+  margin-top: 6rem;
+  display: block;
+
+}
+
+.social-main-link{
+  display: flex;
+  align-self: flex-end;
+  align-content: end;
+  align-items: end;
+  margin-left: 40rem;
+}
+
+.social-link{
+  list-style: none;
+  padding: 1.3rem;
+  font-size: 2rem;
+}
+
+.anchoor{
+font-size: 2rem;
+color: black;
+
 }

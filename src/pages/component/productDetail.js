@@ -15,7 +15,7 @@ export function ProductDetail(){
         
         <div className="productDetail-page">
 
-        <h1>here {productId}</h1>
+        <h1>Details</h1>
       
           <ProductDetailCard {...product}/>
 

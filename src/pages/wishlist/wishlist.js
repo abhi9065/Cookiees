@@ -4,7 +4,11 @@ import { CartContext } from './../context/cartContext';
 
 export function Wishlist(){
 
-    const {wishlist , removeFromWishlist} = useContext(CartContext);
+    const {wishlist , removeFromWishlist , handleClickUpdate} = useContext(CartContext);
+
+    function clickToCart(item){
+        handleClickUpdate(item)
+       }
 
     function removeWishlist(item){
         removeFromWishlist(item)
@@ -13,7 +17,7 @@ export function Wishlist(){
 
         <div className="cart-page">
 
-        <h1 className="cart-heading">Cart Items</h1>
+        <h1 className="cart-heading">Wishlist Items</h1>
     
 
         <div className="cart-main-listing">
@@ -25,7 +29,10 @@ export function Wishlist(){
                    <h1 className="cart ">{title}</h1>
                    <h3 className="cart">{price}/-Rs.</h3>
 
-                  <button onClick={()=>{removeWishlist(id)}}>Remove Cart</button>
+                   <button onClick={()=>{clickToCart({id,title,src,price})}}>Add to cart</button>
+                   <button onClick={()=>{removeWishlist(id)}}>Remove wishlist</button>
+           
+           
 
 
                 </div>
