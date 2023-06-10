@@ -54,18 +54,31 @@ export function Cart(){
                   <button onClick={()=>{removeCart(id)}}>Remove Cart</button>
 
 
-                  <h1>price detail</h1><hr/>
-
-                  <h2>price : {price*quantity}</h2>
-                  <h3> Item of Cart {quantity}</h3>
-                   <h3>Delivery Charges  FREE</h3>
-                   <h3>Coupon Discount   RS 0.00</h3>
-
+                 
            
                 </div>
 
             ))
            }
+
+           <div>
+           
+           {
+            cart.map(({id,title,src,price,quantity}) => (
+              <div>
+              
+              <h1>price detail</h1><hr/>
+
+              <h2>price : {price*quantity}</h2>
+              <h3> Item of Cart {quantity}</h3>
+               <h3>Delivery Charges  FREE</h3>
+               <h3>Coupon Discount   RS 0.00</h3>  
+
+              </div>
+            ))
+           }
+           </div>
+
 
            <h2>
             totalPrice : {cart.reduce((total, item) => (total += item.price * item.quantity), 0)}
