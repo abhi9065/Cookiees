@@ -10,10 +10,6 @@ export function Navbar(){
 
   const {cart} = useContext(CartContext)
   
-
-
-
-
     return (
         <>
 

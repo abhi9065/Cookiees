@@ -8,6 +8,7 @@ import './pages/wishlist/wishlist.css'
 import './pages/component/productDetail.css'
 import {Routes,Route} from "react-router-dom"
 
+
 import { Navbar } from './pages/navbar/Navbar';
 import { HomePage } from './pages/homepage/homePage';
 import { ProductCart } from './pages/products/producart';
