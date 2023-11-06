@@ -1,9 +1,11 @@
 
-.product-page{
-    margin-top: 10rem;
+/* .product-page{
+    margin-top: 100rem;
   
   }
-  
+   */
+
+
   .product-heading{
     margin-bottom: 4rem;
     color: black;
@@ -29,11 +31,10 @@
     box-shadow: 0 1px 10px 5px gray;
     margin: 1.5rem;
     padding: 1rem;
-    width: 60%;
+    width: 68%;
     height: 430px;
-    margin-left: 8rem;
+    margin-left: 5rem;
     line-height: 1.6rem;
-  
     
   }
   
@@ -56,11 +57,15 @@
 
  .productcart-button{
   background-color: #2ebbb9;
-  color: black;
+  color:  #351d02;
   padding: 0.4rem;
  margin: 0.3rem;
  }
 
+ .productcart-button:hover{
+  background-color: cornsilk;
+  cursor: pointer;
+ }
 
 .sidebar{
   grid-area: sidebar;
@@ -73,7 +78,6 @@
 .mains{
   grid-area: main;
 
-
 }
 
 .product-page{
@@ -83,9 +87,41 @@
   line-height:4rem;
 }
 
-/* .sidebar-category{
-  display: grid;
-  grid-template-columns:1fr 1fr ;
-} */
+.sidebars{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: start; */
+  /* margin: 2rem; */
+  align-items: center;
+}
 
+hr{
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.sidebar-category{
+display: flex;
+flex-direction: column;
+margin: 0;
+
+}
+
+
+.sidebar-filters{
+  display: flex;
+  flex-direction: column;
+  margin: 0rem;
+  
+}
+
+.sidebar-search > input{
+  margin-left: 1.5rem;
+}
+
+.sidebar-search-heading{
+  font-size: 28px;
+  padding-top: 0rem;
+  margin: 0;
+}
 

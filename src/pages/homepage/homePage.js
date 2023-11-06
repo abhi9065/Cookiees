@@ -12,7 +12,7 @@ export function HomePage(){
       
 
 
-    return(
+    return (
         <>
 
 
@@ -23,7 +23,7 @@ export function HomePage(){
 
       
       <div className='homepage-cake-description'>
-      <img style={{width:'30%'}} src="https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=360&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 360w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=740&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 740w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=826&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 826w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=900&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 900w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=996&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 996w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=1060&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 1060w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=1380&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 1380w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=1480&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 1480w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=1800&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 1800w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=2000&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 2000w" alt='not found'/>
+      <img className='cake-description-image'  src="https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=360&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 360w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=740&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 740w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=826&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 826w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=900&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 900w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=996&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 996w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=1060&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 1060w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=1380&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 1380w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=1480&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 1480w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=1800&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 1800w, https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=2000&t=st=1685004836~exp=1685005436~hmac=982f5bff0a4416ade3f152684214d680f8332af3b6aa0262102d2561bb47f1b3 2000w" alt='not found'/>
     
      <div className='homepage-cake-descriptionText'>
      <h1>TASTE REAL PLEASURE</h1>
@@ -35,9 +35,9 @@ export function HomePage(){
        </div>
 
 
-        <div>
-           <CategoryPage/>
-        </div>
+         <div>
+            <CategoryPage/>
+         </div>
 
 
 

@@ -1,14 +1,8 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 
-export function ProductDetailCard({
-  id,
-  title,
-  price,
-  src,
-  description,
-  
-}) {
+export function ProductDetailCard({ id,title,price,src,description,}) {
+
   return (
     <li
       style={{
@@ -23,9 +17,7 @@ export function ProductDetailCard({
         <h4>title : {title} </h4>
         Price: {price}/-Rs. 
       </div>
-      <div>
-       
-      </div>
+      
     </li>
   );
 }

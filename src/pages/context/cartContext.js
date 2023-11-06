@@ -9,6 +9,7 @@ const [wishlist , setWishlist] = useState([])
 
 
 function handleClickUpdate({id,src,name,price}){
+  
     const isPresent = cart.findIndex(item => item.id === id)
 
      if(isPresent === -1){

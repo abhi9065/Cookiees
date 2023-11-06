@@ -13,35 +13,42 @@ export function Navbar(){
     return (
         <>
 
+        <div className='nav-bar'>
       
-        <nav className="Nav">
+
        
+        <div className='heading-main'>
          <Link className="heading" to={'/'} > COOKIES</Link>
+        </div>
+
+    
+
+        <div className='search-input'>
         <input className="input" to={<productcart/>}  placeholder="🔎search for products" />
-        
-      
+        </div>
 
         <ul className="category">
 
-          <li  className='list'>
-          <Link style={{color:'white'}} to={'/cart'}>
-          <BsCart3/>
-          <spam classNam="cart-counter" >{cart.length}</spam>
+          <li >
+          <Link  to='/cart'>
+          <BsCart3 className='list'/>
+          <spam className="cart-counter" >{cart.length}</spam>
           </Link>
           </li>
 
           <li className="list">
-          <Link style={{color:'white'}} to={'/wishlist'}><AiOutlineHeart/></Link>
+          <Link to='/wishlist'>
+          <AiOutlineHeart  className='list'/>
+          </Link>
           </li>
 
+          <button className="Btn ">Login</button>
 
-          <button className="Btn">Login</button>
         </ul>
-
     
+  
+      </div>
 
-        
-      </nav>
         </>
     )
 }

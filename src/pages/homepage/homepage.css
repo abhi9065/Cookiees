@@ -1,25 +1,13 @@
 
 .image{
-    height:45% ;
+    height:95vh ;
+    /* width: fit-content; */
     width: 100%;
     margin-top: 8rem;
+    box-shadow: 0 1px 10px 5px black;
   }
 
   
-
-.homepage-menucard{
-  color:black;
-  border: 4px solid black ;
-  border-radius: 1.5rem;
-  padding: 0.1rem 3rem;
-  text-decoration: none;
-  font-size: 30px;
-  font-style: bold;
-  font-family: 'Arial Narrow Bold', sans-serif;
-  cursor: pointer;
-  
-}
-
 
 
 
@@ -33,11 +21,46 @@
   line-height: 3rem;
 }
 
+.cake-description-image{
+  width: 30%;
+}
+
 .homepage-cake-descriptionText{
   padding: 2rem 0rem;
   margin-right: 10rem;
   
 }
+
+.homepage-menucard{
+  color:white;
+  background-color: black;
+  border: 4px solid black ;
+  border-radius: 1.5rem;
+  padding: 0.1rem 3rem;
+  text-decoration: none;
+  font-size: 2rem;
+  font-style: bold;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  cursor: pointer;
+  
+}
+
+.homepage-menucard:hover{
+  background-color: white;
+  color: black;
+  padding: 0.2rem 4rem;
+  /* transition: padding  1s; */
+  border: 4px solid black ;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  font-size: 30px;
+  font-style: bold;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  cursor: pointer;
+  
+}
+
+
 
 .footer-heading{
   display: inline-block;
@@ -74,3 +97,5 @@ font-size: 2rem;
 color: black;
 
 }
+
+
